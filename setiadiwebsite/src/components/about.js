@@ -14,7 +14,7 @@ export default function About() {
             <div className="flex-1 flex flex-col justify-center
                             items-center gap-5 px-6">
                 <div>
-                    <h2 className="text-center text-emerald-500 
+                    <h2 className="text-center text-green-800 
                                    text-5xl font-bold">
                         About Me :
                     </h2>

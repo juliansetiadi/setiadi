@@ -12,10 +12,10 @@ export default function Contact() {
                    target="_blank"
                    className="text-center hover:underline"
                    href=
-"https://instagram.com/geeks_for_geeks">
-                    Instagram:
+"https://www.linkedin.com/in/juliansetiadi/">
+                    Linkedin:
                     <span className="font-bold">
-                        @geeks_for_geeks
+                        Julian Setiadi
                     </span>
                 </a>
                 <a rel="noreferrer"
@@ -23,9 +23,19 @@ export default function Contact() {
                    className="text-center hover:underline"
                    href=
 "https://twitter.com/geeksforgeeks">
-                    Twitter:
+                    Github:
                     <span className="font-bold">
-                        @geeksforgeeks
+                        @juliansetiadi
+                    </span>
+                </a>
+                <a rel="noreferrer"
+                   target="_blank"
+                   className="text-center hover:underline"
+                   href=
+"https://instagram.com/geeks_for_geeks">
+                    Email:
+                    <span className="font-bold">
+                        julian.setiadi@uconn.edu
                     </span>
                 </a>
             </div>

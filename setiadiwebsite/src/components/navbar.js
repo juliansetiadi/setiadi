@@ -1,3 +1,5 @@
+import headshot from "../assets/images/navbar/headshot.jpeg";
+
 // Navbar.js
 export default function Navbar() {
     return (
@@ -6,14 +8,17 @@ export default function Navbar() {
             <div className="container flex flex-col lg:flex-row
                             gap-5 justify-between w-full 
                             items-center max-w-5xl mx-auto">
-                <h3 className="text-3xl text-emerald-500 font-bold">
-                    GeeksforGeeks
-                </h3>
+                <div className="flex items-center gap-3">
+                    <img className="w-10 h-15" src={headshot} alt="Headshot" />
+                    <h3 className="text-3xl text-green-800 font-bold">
+                        Julian Setiadi
+                    </h3>
+                </div>
                 <ul className="flex gap-3 align-center p-1 flex-wrap">
                     <li>
                         <a className="text-sm sm:text-base px-2 lg:px-5 
                                       py-2 transition rounded hover:text-white 
-                                      hover:bg-emerald-600"
+                                      hover:bg-green-800"
                            href="#about">
                         About
                         </a>
@@ -21,7 +26,7 @@ export default function Navbar() {
                     <li>
                         <a className="text-sm sm:text-base px-2 lg:px-5 py-2 
                                       transition rounded hover:text-white 
-                                      hover:bg-emerald-600"
+                                      hover:bg-green-800"
                             href="#skills">
                             Skills
                         </a>
@@ -29,7 +34,7 @@ export default function Navbar() {
                     <li>
                         <a className="text-sm sm:text-base px-2 lg:px-5 py-2 
                                       transition rounded hover:text-white 
-                                      hover:bg-emerald-600"
+                                      hover:bg-green-800"
                             href="#projects">
                             Projects
                         </a>
@@ -37,9 +42,17 @@ export default function Navbar() {
                     <li>
                         <a className="text-sm sm:text-base px-2 lg:px-5 py-2 
                                       transition rounded hover:text-white 
-                                      hover:bg-emerald-600"
+                                      hover:bg-green-800"
                             href="#contact">
                             Contact
+                        </a>
+                    </li>
+                    <li>
+                        <a className="text-sm sm:text-base px-2 lg:px-5 py-2 
+                                      transition rounded hover:text-white 
+                                      hover:bg-green-800"
+                            href="#acting">
+                            Acting
                         </a>
                     </li>
                 </ul>

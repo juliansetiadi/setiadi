@@ -3,12 +3,12 @@ export default function Projects() {
     return (
         <section id="projects"
                  className="my-20 w-full flex flex-col gap-5 align-center max-w-5xl mx-auto">
-            <h2 className="text-5xl text-emerald-500 font-bold text-center">
+            <h2 className="text-5xl text-green-800 font-bold text-center">
                 My Projects
             </h2>
-            <div className="p-10 bg-emerald-200 flex flex-col justify-center items-center
+            <div className="p-10 bg-green-800 flex flex-col justify-center items-center
                             gap-5 lg:flex-row max-w-5xl mx-auto shadow transition 
-                            hover:shadow-xl hover:scale-[102%] w-full">
+                            hover:shadow-xl hover:scale-[102%] w-full text-white">
                 <div className="w-80 rounded">
                     <a href=
 "https://www.geeksforgeeks.org/progress-tracker-using-react-and-local-storage/"
@@ -34,9 +34,9 @@ export default function Projects() {
                     </p>
                 </div>
             </div>
-            <div className="p-10 bg-emerald-200 flex flex-col justify-center items-center gap-5 
+            <div className="p-10 bg-green-800 flex flex-col justify-center items-center gap-5 
                             lg:flex-row-reverse max-w-5xl mx-auto shadow transition hover:shadow-xl 
-                            hover:scale-[102%] w-full">
+                            hover:scale-[102%] w-full text-white">
                 <div className="w-80 rounded">
                     <a href=
 "https://www.geeksforgeeks.org/15-puzzle-game-using-reactjs/"

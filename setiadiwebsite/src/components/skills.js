@@ -1,10 +1,10 @@
 // Skills.js
 export default function Skills() {
-    const skills = ["Python", "HTML", "CSS", "Javascript", "React", "NextJs"];
+    const skills = ["Python", "HTML", "CSS", "Javascript", "React", "C++", "Java", "Django", "TailwindCSS", "Bootstrap"];
     return (
         <section id="skills"
             className="px-10 w-full my-40 max-w-5xl mx-auto">
-            <h2 className="text-center text-6xl text-emerald-500 font-bold">
+            <h2 className="text-center text-6xl text-green-800 font-bold">
                 My Skills...
             </h2>
             <div className="mt-10 flex gap-5 justify-center 
