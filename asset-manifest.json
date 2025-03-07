@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.js": "/setiadi/static/js/main.f8da3612.js",
+    "static/media/Hero.jpg": "/setiadi/static/media/Hero.8c4246e1b7d582ce627e.jpg",
+    "static/media/aboutBackground.jpg": "/setiadi/static/media/aboutBackground.e7d10f8651208e4696a9.jpg",
+    "static/media/ohno_yell.jpg": "/setiadi/static/media/ohno_yell.ba4ab26aea9b463203d0.jpg",
+    "static/media/ohno_stand.jpg": "/setiadi/static/media/ohno_stand.c4c574a6ebb2682d5ad5.jpg",
+    "static/media/curtains_stand.jpeg": "/setiadi/static/media/curtains_stand.755dbd92324c8a08192e.jpeg",
+    "static/media/headshot.jpeg": "/setiadi/static/media/headshot.97c956e7d5d9618fa8ca.jpeg",
+    "static/media/curtains_injury.jpeg": "/setiadi/static/media/curtains_injury.5fb60e6d21790ef2812a.jpeg",
+    "static/media/curtains_endingSong.jpeg": "/setiadi/static/media/curtains_endingSong.efe6d40d5f14387e35a1.jpeg",
+    "static/media/curtains_offGuard.jpeg": "/setiadi/static/media/curtains_offGuard.8c7725a8f3338db3f040.jpeg",
+    "static/media/curtains_dance.JPG": "/setiadi/static/media/curtains_dance.c2af6e8594dcc347b727.JPG",
+    "static/media/curtains_nonchalant.jpeg": "/setiadi/static/media/curtains_nonchalant.166f6c1348c5bf4fdaa8.jpeg",
+    "static/media/curtains_flannel.jpeg": "/setiadi/static/media/curtains_flannel.bdccb75118609db41dd5.jpeg",
+    "static/media/curtains_songTwo.jpeg": "/setiadi/static/media/curtains_songTwo.307a3959d668d74aebd6.jpeg",
+    "static/media/curtains_flirt.jpeg": "/setiadi/static/media/curtains_flirt.0c35fb0894e147cca795.jpeg",
+    "static/media/curtains_song.jpeg": "/setiadi/static/media/curtains_song.98b72f708050175cd05f.jpeg",
+    "static/media/radium_idle.jpeg": "/setiadi/static/media/radium_idle.d3006fb30bde164b27c1.jpeg",
+    "static/media/radium_faceoff.JPG": "/setiadi/static/media/radium_faceoff.423845ae7c79ed72f64c.JPG",
+    "static/media/Julian Setiadi Resume.pdf": "/setiadi/static/media/Julian Setiadi Resume.2761f4b467306156ac8f.pdf",
+    "static/media/aboutPic.jpeg": "/setiadi/static/media/aboutPic.1bc55bfa60f914c57335.jpeg",
+    "static/media/acting_resume_1.pdf": "/setiadi/static/media/acting_resume_1.b985deff8e2bdf53b0de.pdf",
+    "static/media/Julian Setiadi Logo.png": "/setiadi/static/media/Julian Setiadi Logo.383de2b67bf6c34b379f.png",
+    "index.html": "/setiadi/index.html",
+    "main.f8da3612.js.map": "/setiadi/static/js/main.f8da3612.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.f8da3612.js"
+  ]
+}
