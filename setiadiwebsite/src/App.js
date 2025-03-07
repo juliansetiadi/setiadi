@@ -21,19 +21,18 @@ export default function App() {
     return (
         <>
             <Navbar />
-            <Hero />
-            <Temp />
+            {/* <Hero /> */}
             <About />
-            <Skills />
-            <Projects />
+            {/* <Skills /> */}
+            {/* <Projects /> */}
             <Resume />
-            <div className="relative">
+            {/* <div className="relative">
                 <Acting autoSlide={true} autoSlideInterval={3000}>
                     {slides.map((slide, index) => (
                         <img key={index} src={slide} alt={`Slide ${index + 1}`} />
                     ))}
                 </Acting>
-            </div>
+            </div> */}
             <Contact />
             <Footer />
         </>

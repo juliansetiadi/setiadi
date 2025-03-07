@@ -1,4 +1,3 @@
-// About.js
 import aboutPic from '../assets/images/about/aboutPic.jpeg';
 import backgroundImage from '../assets/images/about/aboutBackground.jpg'; // Import the background image
 
@@ -6,36 +5,27 @@ export default function About() {
     return (
         <section
             id="about"
-            // className="px-10 w-full flex flex-col lg:flex-row py-20 
-            //            align-center bg-emerald-200 max-w-5xl mx-auto"
             style={{
+                backgroundImage: `url(${backgroundImage})`,
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
-                backgroundRepeat: 'no-repeat'
+                backgroundRepeat: 'no-repeat',
+                width: '100%',
+                height: '100vh', // Set the height to cover the viewport height
+                display: 'flex',
+                justifyContent: 'center',
+                alignItems: 'center',
+                textAlign: 'center'
             }}>
-            <div className="flex-1">
-                <img src={backgroundImage}
-                alt="About"
-                    className="w-full h-full bg-cover"/>
-            </div>
-            <div className="flex-1 flex flex-col justify-center
-                            items-center gap-5 px-6">
-                <div>
-                    <h2 className="text-center text-green-800 
-                                   text-5xl font-bold">
-                        About Me :
-                    </h2>
-                </div>
-                <p>
-                    As I said, I am your friendly
-                    neighbourhood osm developer...
-                </p>
-                <p>
-                    I am a passionate self taught developer
-                    (which is quite a subjective thing as i learnt from
-                    teachers on youtube so does that really counts?
-                    idk). I am having an experience of about 4 years
-                    and had a deep understanding of creating web products.
+            <div className="flex flex-col justify-center items-center gap-5 px-6 bg-opacity-50 bg-black text-white p-10 rounded-lg">
+                <h4 className="text-xl font-bold">
+                    Hi and welcome to
+                </h4>
+                <h2 className="text-white text-5xl font-bold">
+                    My Portfolio Website
+                </h2>
+                <p className="text-lg">
+                    Software Engineer | Web Developer | Content Creator
                 </p>
             </div>
         </section>
