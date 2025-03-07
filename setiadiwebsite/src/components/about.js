@@ -1,14 +1,21 @@
 // About.js
+import aboutPic from '../assets/images/about/aboutPic.jpeg';
+import backgroundImage from '../assets/images/about/aboutBackground.jpg'; // Import the background image
+
 export default function About() {
     return (
         <section
             id="about"
-            className="px-10 w-full flex flex-col lg:flex-row py-20 
-                       align-center bg-emerald-200 max-w-5xl mx-auto">
+            // className="px-10 w-full flex flex-col lg:flex-row py-20 
+            //            align-center bg-emerald-200 max-w-5xl mx-auto"
+            style={{
+                backgroundSize: 'cover',
+                backgroundPosition: 'center',
+                backgroundRepeat: 'no-repeat'
+            }}>
             <div className="flex-1">
-                <img src=
-"https://media.geeksforgeeks.org/img-practice/Asset1-1641910145.svg"
-                    alt="About"
+                <img src={backgroundImage}
+                alt="About"
                     className="w-full h-full bg-cover"/>
             </div>
             <div className="flex-1 flex flex-col justify-center

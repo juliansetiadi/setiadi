@@ -8,6 +8,7 @@ import Footer from "./components/footer";
 import Hero from "./components/hero";
 import Acting from "./components/acting";
 import Resume from "./components/resume";
+import Temp from "./components/temp";
 
 import Curtains from './assets/images/acting/curtains_flannel.jpeg';
 
@@ -21,6 +22,7 @@ export default function App() {
         <>
             <Navbar />
             <Hero />
+            <Temp />
             <About />
             <Skills />
             <Projects />
