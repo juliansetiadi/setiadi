@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/setiadi/static/js/main.f8da3612.js",
+    "main.js": "/setiadi/static/js/main.1703c14f.js",
     "static/media/Hero.jpg": "/setiadi/static/media/Hero.8c4246e1b7d582ce627e.jpg",
     "static/media/aboutBackground.jpg": "/setiadi/static/media/aboutBackground.e7d10f8651208e4696a9.jpg",
     "static/media/ohno_yell.jpg": "/setiadi/static/media/ohno_yell.ba4ab26aea9b463203d0.jpg",
@@ -23,9 +23,9 @@
     "static/media/acting_resume_1.pdf": "/setiadi/static/media/acting_resume_1.b985deff8e2bdf53b0de.pdf",
     "static/media/Julian Setiadi Logo.png": "/setiadi/static/media/Julian Setiadi Logo.383de2b67bf6c34b379f.png",
     "index.html": "/setiadi/index.html",
-    "main.f8da3612.js.map": "/setiadi/static/js/main.f8da3612.js.map"
+    "main.1703c14f.js.map": "/setiadi/static/js/main.1703c14f.js.map"
   },
   "entrypoints": [
-    "static/js/main.f8da3612.js"
+    "static/js/main.1703c14f.js"
   ]
 }
